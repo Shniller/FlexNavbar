@@ -1,24 +1,27 @@
-.nav {
+.nav { 
     background-color: grey;
-    width: 800px;
     height: 100px;
     align-items: center;
     display: flex;
-    
 }
 li {
     display: inline-block;
 }
-}
 .nav-title {
-    justify-content: start;
+justify-content: start;
 }
 h1 {
     color: white;
-    margin: 125px;
 }
 button {
     background: cyan;
     box-shadow: 5px 3px black; 
-
+}   
+.container {
+    display: flex;
+    width: 90%;
+    justify-content: right;
+}
+.nav-links {
+    justify-content: right;
 }
